@@ -1913,7 +1913,17 @@ section {
   color: #a5c5fe;
   font-size: 14px;
 }
-
+@media (min-width: 1200px){
+  .counts .count-box{
+    position: relative;
+    left: 25px;
+  }
+}
+@media (max-width: 1200px){
+  .counts img{
+    max-width: 80%;
+  }
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

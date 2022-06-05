@@ -80,6 +80,7 @@ section {
   .breadcrumbs {
     margin-top: 57px;
   }
+  
 }
 .breadcrumbs h2 {
   font-size: 28px;
@@ -530,7 +531,7 @@ section {
   font-size: 15px;
 
 }
-.values .center-box{
+.values .center-box-features{
   top: 200px;
 
 }
@@ -1926,14 +1927,25 @@ section {
   background-color: #03161D;
 }
 
-.footer-all-other{
+.footer-sm-all{
   background-color: #03161D;
-  position:absolute;
-  bottom:0;
-  width:100%;
 }
+
 .btn-footer{
   border-radius: 40px;
+}
+
+.row-3-only{
+  margin-top: 80px;
+}
+
+@media (min-width: 992px){
+  .footer-lg-all-fixed{
+    background-color: #03161D;
+    position:absolute;
+    bottom:0;
+    width:100%;
+  }
 }
 
 .col-xs-0, 

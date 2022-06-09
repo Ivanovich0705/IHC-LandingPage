@@ -5,9 +5,9 @@
 * License: https://bootstrapmade.com/license/
 */
 
-  
-(function() {
-  "use strict";
+
+(
+  function () {
 
   /**
    * Easy selector helper function
@@ -289,4 +289,6 @@
     aos_init();
   });
 
+
+    
 })();

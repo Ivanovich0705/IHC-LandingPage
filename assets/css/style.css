@@ -15,6 +15,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  min-height: 100%;
 }
 
 a {
@@ -2065,12 +2066,13 @@ section {
 .btn-footer{
   border-radius: 40px;
 }
-
+footer{
+  margin-top: auto;
+}
 
 @media (min-width: 992px){
   .footer-lg-all-fixed{
     background-color: #03161D;
-    position:absolute;
     bottom:0;
     width:100%;
   }

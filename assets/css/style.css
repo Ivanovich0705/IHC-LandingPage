@@ -595,6 +595,9 @@ section {
   font-size: 15px;
 
 }
+.places .second-p{
+  font-size: 15px;
+}
 .places .center-box-features{
   top: 200px;
 
@@ -2078,6 +2081,10 @@ section {
     left: 0;
   }
 }
-footer{
-
+.map h3 {
+  font-size: 38px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 18px;
+  text-align: center;
 }

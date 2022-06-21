@@ -15,7 +15,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #045658;
-  min-height: 100%;
+  height: 100%;
 }
 
 a {
@@ -2064,23 +2064,8 @@ section {
 .footer-sm-all{
   background-color: #03161D;
 }
-
 .btn-footer{
   border-radius: 40px;
-}
-.footer-section{
-  
-}
-footer{
-  margin-top: auto;
-}
-
-@media (min-width: 992px){
-  .footer-lg-all-fixed{
-    background-color: #03161D;
-    bottom: 0;
-    width: 100%;
-  }
 }
 .alternative-footer{
   font-family: "Open Sans"; 
@@ -2091,4 +2076,15 @@ footer{
 .col-lg-0 {
   flex: 0 0 0;
   max-width: 0;
+}
+@media (min-width: 992px){
+  .footer-sm-all{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+footer{
+
 }
